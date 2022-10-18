@@ -1,0 +1,209 @@
+/* колір логотипу #2196F3 #000000 */
+/* основний колір тексту #212121 */
+/* додатковий колір тексту #757575 */
+/* колір почта та телефон #757575 */
+/* колір тексту секції "Hero" #FFFFFF */
+/* акцентуючий колір #2196F3 */
+/* колір секції адреси color: rgba(255, 255, 255, 0.6); */
+
+:root {
+    --main-color: #2196F3;
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --button-text-color: #FFFFFF;
+    --contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    color: #212121;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+}
+
+.poststyle {
+    font-style: normal;
+    font-weight: 700;
+}
+
+.textstyle {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;   
+}
+.link {
+    text-decoration: none;
+}
+/* Логотип */
+
+.logo {
+    color: #000000;
+    font-family: 'raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.logo-web {
+    color: #2196F3;
+}
+
+/* Навигация сайта */
+.sitenav {
+    color: var(--main-text-color);
+    font-size: 14px;
+}
+
+.sitenav .link:hover,
+.sitenav .link:focus {
+    color: var(--main-color);
+}
+
+.sitenav .link:link,
+.sitenav .link:visited {
+    text-decoration: none;
+}
+
+/* Контакти */
+.contacts .link {
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--main-color);
+}
+
+/* Секція "Hero" */
+.hero .hero-post {
+    color: var(--button-text-color);
+    font-weight: 900;
+    font-size: 44px;
+   /*  line-height: 60px;
+    text-align: center; */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    color: var(--button-text-color);
+    background-color: var(--main-color);
+    font-weight: 700;
+    font-size: 16px;
+    /* line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center; */
+    letter-spacing: 0.06em;
+}
+
+/* Секція особливості */
+.feauters .feauters-post {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.feauters .feauters-text {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+/* Секція послуги */
+.services-post {
+    color: var(--main-text-color);
+    font-size: 36px;
+    line-height: 42px;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+}
+
+/* Секція наша команда */
+.teams {
+    color: var(--main-text-color);
+    font-size: 36px;
+    line-height: 42px;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+}
+
+.team .team-post {
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+}
+.team .team-text {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 19px;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+}
+
+/* Футер сторінки */
+.contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    text-decoration: none;
+}
+.logo-studio {
+    color:#FFFFFF;
+}
+.adress .link {
+    color: var(--contacts-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.adress .map {
+    color: var(--button-text-color);
+    
+}
+
+/* Сторінка портфоліо 
+    Фільтри */
+.filter .portfolio-button {
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+}
+
+.filter .portfolio-button:hover,
+.filter .portfolio-button:focus {
+    color: var(--button-text-color);
+    background-color: var(--main-color);
+}
+
+/* Галерея портфоліо */
+.portfolio .portfolio-post {
+   color: var(--main-text-color); 
+   font-size: 18px;
+   line-height: 36px;
+   letter-spacing: 0.06em;
+}
+
+.portfolio .portfolio-text {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
